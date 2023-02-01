@@ -10,6 +10,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from handlers import dp
 
 total = 170   # Начальное общее количество конфет для розыгрыша.
+login = ''
                                 
 async def on_start(_):
     print('Бот запущен!')
